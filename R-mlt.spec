@@ -4,17 +4,18 @@
 #
 Name     : R-mlt
 Version  : 1.3.2
-Release  : 1
+Release  : 2
 URL      : https://cran.r-project.org/src/contrib/mlt_1.3-2.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/mlt_1.3-2.tar.gz
 Summary  : Most Likely Transformations
 Group    : Development/Tools
 License  : GPL-2.0
 Requires: R-BB
-Requires: R-TH.data
+Requires: R-alabama
+Requires: R-basefun
+Requires: R-coneproj
 Requires: R-nloptr
 Requires: R-numDeriv
-Requires: R-orthopolynom
 Requires: R-sandwich
 Requires: R-variables
 BuildRequires : R-BB
@@ -24,7 +25,6 @@ BuildRequires : R-basefun
 BuildRequires : R-coneproj
 BuildRequires : R-nloptr
 BuildRequires : R-numDeriv
-BuildRequires : R-orthopolynom
 BuildRequires : R-sandwich
 BuildRequires : R-variables
 BuildRequires : buildreq-R
@@ -41,10 +41,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1633386942
+export SOURCE_DATE_EPOCH=1633662916
 
 %install
-export SOURCE_DATE_EPOCH=1633386942
+export SOURCE_DATE_EPOCH=1633662916
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
