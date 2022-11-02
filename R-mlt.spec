@@ -4,7 +4,7 @@
 #
 Name     : R-mlt
 Version  : 1.4.3
-Release  : 10
+Release  : 11
 URL      : https://cran.r-project.org/src/contrib/mlt_1.4-3.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/mlt_1.4-3.tar.gz
 Summary  : Most Likely Transformations
