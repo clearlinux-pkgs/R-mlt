@@ -4,10 +4,10 @@
 # Using build pattern: R
 #
 Name     : R-mlt
-Version  : 1.4.7
-Release  : 17
-URL      : https://cran.r-project.org/src/contrib/mlt_1.4-7.tar.gz
-Source0  : https://cran.r-project.org/src/contrib/mlt_1.4-7.tar.gz
+Version  : 1.4.8
+Release  : 18
+URL      : https://cran.r-project.org/src/contrib/mlt_1.4-8.tar.gz
+Source0  : https://cran.r-project.org/src/contrib/mlt_1.4-8.tar.gz
 Summary  : Most Likely Transformations
 Group    : Development/Tools
 License  : GPL-2.0
@@ -16,6 +16,7 @@ Requires: R-BB
 Requires: R-alabama
 Requires: R-basefun
 Requires: R-coneproj
+Requires: R-nloptr
 Requires: R-numDeriv
 Requires: R-sandwich
 Requires: R-variables
@@ -24,6 +25,7 @@ BuildRequires : R-TH.data
 BuildRequires : R-alabama
 BuildRequires : R-basefun
 BuildRequires : R-coneproj
+BuildRequires : R-nloptr
 BuildRequires : R-numDeriv
 BuildRequires : R-sandwich
 BuildRequires : R-variables
@@ -54,10 +56,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1685645398
+export SOURCE_DATE_EPOCH=1688415794
 
 %install
-export SOURCE_DATE_EPOCH=1685645398
+export SOURCE_DATE_EPOCH=1688415794
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
