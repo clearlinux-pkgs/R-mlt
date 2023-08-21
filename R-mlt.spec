@@ -4,10 +4,10 @@
 # Using build pattern: R
 #
 Name     : R-mlt
-Version  : 1.4.8
-Release  : 18
-URL      : https://cran.r-project.org/src/contrib/mlt_1.4-8.tar.gz
-Source0  : https://cran.r-project.org/src/contrib/mlt_1.4-8.tar.gz
+Version  : 1.4.9
+Release  : 19
+URL      : https://cran.r-project.org/src/contrib/mlt_1.4-9.tar.gz
+Source0  : https://cran.r-project.org/src/contrib/mlt_1.4-9.tar.gz
 Summary  : Most Likely Transformations
 Group    : Development/Tools
 License  : GPL-2.0
@@ -56,10 +56,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1688415794
+export SOURCE_DATE_EPOCH=1692633184
 
 %install
-export SOURCE_DATE_EPOCH=1688415794
+export SOURCE_DATE_EPOCH=1692633184
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
