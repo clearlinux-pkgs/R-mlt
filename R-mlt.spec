@@ -6,10 +6,10 @@
 # autospec commit: 9594167
 #
 Name     : R-mlt
-Version  : 1.6.4
-Release  : 30
-URL      : https://ftp.osuosl.org/pub/cran/src/contrib/mlt_1.6-4.tar.gz
-Source0  : https://ftp.osuosl.org/pub/cran/src/contrib/mlt_1.6-4.tar.gz
+Version  : 1.6.5
+Release  : 31
+URL      : https://ftp.osuosl.org/pub/cran/src/contrib/mlt_1.6-5.tar.gz
+Source0  : https://ftp.osuosl.org/pub/cran/src/contrib/mlt_1.6-5.tar.gz
 Summary  : Most Likely Transformations
 Group    : Development/Tools
 License  : GPL-2.0
@@ -64,10 +64,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1746027803
+export SOURCE_DATE_EPOCH=1747075510
 
 %install
-export SOURCE_DATE_EPOCH=1746027803
+export SOURCE_DATE_EPOCH=1747075510
 rm -rf %{buildroot}
 LANG=C.UTF-8
 CFLAGS="$CLEAR_INTERMEDIATE_CFLAGS -O3 -flto -fno-semantic-interposition "
